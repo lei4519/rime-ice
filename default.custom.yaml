@@ -1,0 +1,17 @@
+patch:
+  schema_list:
+    # 可以直接删除或注释不需要的方案，对应的 *.schema.yaml 方案文件也可以直接删除
+    # 除了 t9，它依赖于 rime_ice，用九宫格别删 rime_ice.schema.yaml
+    # - schema: rime_ice # 雾凇拼音（全拼）
+    - schema: double_pinyin_flypy # 小鹤双拼
+  menu:
+    page_size: 10 # 候选词个数
+  # # 仅使用「雾凇拼音」的默认配置，配置此行即可
+  # __include: rime_ice_suggestion:/
+  # # 以下根据自己所需自行定义，仅做参考。
+  # # 针对对应处方的定制条目，请使用 <recipe>.custom.yaml 中配置，例如 rime_ice.custom.yaml
+  __patch:
+    key_binder/bindings/+:
+      # 翻页 [ ]
+      - { when: paging, accept: bracketleft, send: Page_Up }
+      - { when: has_menu, accept: bracketright, send: Page_Down }
