@@ -2,22 +2,22 @@ patch:
   app_options:
     org.alacritty:
       ascii_mode: true
-      vim_mode: true
+      vmode: true
     net.kovidgoyal.kitty:
       ascii_mode: true
-      vim_mode: true
+      vmode: true
     com.github.wez.wezterm:
       ascii_mode: true
-      vim_mode: true
+      vmode: true
     com.neovide.neovide:
       ascii_mode: true
-      vim_mode: true
+      vmode: true
     md.obsidian:
       ascii_mode: true
-      vim_mode: true
+      vmode: true
     com.raycast.macos:
       ascii_mode: true
-      vim_mode: true
+      vmode: true
     com.apple.Spotlight:
       ascii_mode: true
     com.apple.Terminal:
@@ -27,7 +27,7 @@ patch:
       inline: true
     com.microsoft.VSCode:
       ascii_mode: true
-      vim_mode: true
+      vmode: true
 
   # generator by https://pdog18.github.io/rime-soak/#/result
   style/color_scheme: solarized_dark
