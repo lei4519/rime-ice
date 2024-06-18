@@ -5,7 +5,7 @@ patch:
     # - schema: rime_ice # 雾凇拼音（全拼）
     - schema: double_pinyin_flypy # 小鹤双拼
   menu:
-    page_size: 10 # 候选词个数
+    page_size: 9 # 候选词个数
   # # 仅使用「雾凇拼音」的默认配置，配置此行即可
   # __include: rime_ice_suggestion:/
   # # 以下根据自己所需自行定义，仅做参考。
