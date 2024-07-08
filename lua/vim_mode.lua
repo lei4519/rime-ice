@@ -12,7 +12,10 @@ local in_normal_mode = false
 local function vim_mode(key, env)
 	local vmode = env.engine.context:get_option("vmode")
 
+	-- macos
 	-- os.execute("osascript -e 'display notification \"" .. vmode .. '" with title "Title"\'')
+	-- linux hyprland
+	-- os.execute("notify-send '" .. vmode .. "'")
 
 	-- 只有在 app_options 中配置了 vmode 才会进入切换模式
 	if vmode then

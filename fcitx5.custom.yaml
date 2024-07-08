@@ -1,0 +1,24 @@
+patch:
+  app_options:
+    kitty:
+      ascii_mode: true
+      vmode: true
+    neovide:
+      ascii_mode: true
+      vmode: true
+    obsidian:
+      ascii_mode: true
+      vmode: true
+    com.raycast.macos:
+      ascii_mode: true
+      vmode: true
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
+      no_inline: true
+    google-chrome:
+      inline: true
+    code-oss:
+      ascii_mode: true
+      vmode: true
