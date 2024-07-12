@@ -1,0 +1,15 @@
+.git
+user.yaml
+installation.yaml
+
+.DS_Store
+.vscode
+dist
+build
+installation.yaml
+user.yaml
+
+custom_phrase_double.txt
+rime_console
+rime_deployer
+rime_patch
