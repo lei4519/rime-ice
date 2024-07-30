@@ -1,8 +1,7 @@
 patch:
   translator/preedit_format: []
 
-  engine/processors/@before 0: lua_processor@vim_mode
-
+  engine/processors/@before 0: lua_processor@*vim_mode
   switches/+:
     - name: vmode
       reset: 0
