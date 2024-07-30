@@ -3,6 +3,10 @@ patch:
     kitty:
       ascii_mode: true
       vmode: true
+    wofi:
+      ascii_mode: true
+    rofi:
+      ascii_mode: true
     neovide:
       ascii_mode: true
       vmode: true
