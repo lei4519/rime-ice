@@ -12,9 +12,9 @@ patch:
     com.neovide.neovide:
       ascii_mode: true
       vmode: true
-    md.obsidian:
-      ascii_mode: true
-      vmode: true
+    # md.obsidian:
+    #   ascii_mode: true
+    #   vmode: true
     com.raycast.macos:
       ascii_mode: true
       vmode: true
@@ -25,9 +25,12 @@ patch:
       no_inline: true
     com.google.Chrome:
       inline: true
-    com.microsoft.VSCode:
-      ascii_mode: true
-      vmode: true
+    # com.microsoft.VSCode:
+    #   ascii_mode: true
+    #   vmode: true
+    # com.todesktop.230313mzl4w4u92:
+    #   ascii_mode: true
+    #   vmode: true
 
   # generator by https://pdog18.github.io/rime-soak/#/result
   style/color_scheme: solarized_dark
